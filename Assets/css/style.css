@@ -1,10 +1,12 @@
-#c5e0dc
-
 /* These are the variables set based on repeated elements */
-.root {
-    --
+:root {
+    --fonts: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    --green: rgb(72, 110, 72);
+    --white: white;
+
 
 }
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -17,14 +19,14 @@ body {
 
 .header {
     padding: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: rgb(72, 110, 72);
-    color: white;
+    font-family: var(--fonts);
+    background-color: var(--green);
+    color: var(--white);
 }
 
 .header h1 {
     display: inline-block;
-    font-size: 50px;
+    font-size: 300%;
 }
 
 .header nav {
@@ -33,14 +35,18 @@ body {
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 130%;
+    color: var(--white);
 }
-
-/* .header nav ul {
-    list-style-type: none;
-} */
 
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
+}
+
+.h2 {
+    font-family: var(--fonts);
+    font-size: 200%;
+    font-weight: bolder;
+    color: var(--green)
 }
