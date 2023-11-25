@@ -61,13 +61,13 @@ body {
 }
 
 
-/* .h2 {
+.h2 {
     margin-right: 50px;
     font-family: var(--fonts);
     font-size: 200%;
     font-weight: bolder;
     color: var(--green)
-} */
+}
 
 .section {
     width: 75%;
@@ -83,11 +83,6 @@ body {
     float:left; 
     padding-left: 1em; 
     padding-right: 1em;
-    margin-right: 50px;
-    font-family: var(--fonts);
-    font-size: 200%;
-    font-weight: bolder;
-    color: var(--green)
 }
 
 .section p {
@@ -99,8 +94,9 @@ body {
     display: inline-block;
 }
 
-.workimg {
-    max-height: 200px;
-    max-width: 400px;
-    object-fit: cover;
+.img {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-right: 20px;
 }
