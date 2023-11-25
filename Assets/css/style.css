@@ -65,14 +65,6 @@ body {
 }
 
 
-.h2 {
-    margin-right: 50px;
-    font-family: var(--fonts);
-    font-size: 200%;
-    font-weight: bolder;
-    color: var(--green)
-}
-
 .section {
     width: 75%;
     display: block;
@@ -84,9 +76,15 @@ body {
 }
 
 .section h2 {
-    float:left; 
-    padding-left: 1em; 
-    padding-right: 1em;
+    margin-right: 50px;
+    font-family: var(--fonts);
+    font-size: 200%;
+    font-weight: bolder;
+    color: var(--green);
+    float: left; 
+    padding-left: 10px; 
+    padding-right: 10px;
+    border-right: 1px solid var(--green);
 }
 
 .section p {
