@@ -3,7 +3,6 @@
     --fonts: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --green: rgb(72, 110, 72);
     --white: white;
-
 }
 
 * {
@@ -17,7 +16,8 @@ body {
 }
 
 .header {
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-family: var(--fonts);
     background-color: var(--green);
 }
@@ -27,8 +27,9 @@ body {
     font-size: 300%;
     background-color: #c5e0dc;
     color: var(--green);
-    margin-left: 15px;
-    margin-right: 15px;
+    padding: 8px 10px 8px 50px;
+    border: 0;
+    margin: 0;
 }
 
 .header nav {
@@ -64,7 +65,6 @@ body {
     margin-right: auto;
 }
 
-
 .section {
     width: 75%;
     display: block;
@@ -84,7 +84,7 @@ body {
     float: left; 
     padding-left: 10px; 
     padding-right: 10px;
-    border-right: 1px solid var(--green);
+    text-align: center;
 }
 
 .section p {
@@ -98,13 +98,20 @@ body {
 
 .links {
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
-    align-items: left;
+    align-items: center;
     
 }
 
 .links img {
-    height: 200px;
-    width: 400px;
+    height: 400px;
+    width: 800px;
+    
 }
+
+@media screen and (max-width: 992px) {
+    .links {
+      flex-direction: column;
+      width: 100%;
+    }
+  }
