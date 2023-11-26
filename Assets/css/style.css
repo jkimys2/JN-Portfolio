@@ -49,7 +49,7 @@ body {
 }
 
 .avatar {
-    height: 350px;
+    height: 450px;
     width: 100%;
     padding: 10px;
     background-size: cover;
@@ -70,9 +70,9 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    /* flex-wrap: wrap; */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
 }
 
 .section h2 {
@@ -99,39 +99,54 @@ body {
 .links {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
     /* flex: 1 1 400px; */
-    
-    
 }
 
 
 .links img {
-    height: 300px;
-    width: 600px;
+    width: 50%;
     border: 3px solid var(--green);
     margin: 2px 4px;
-    flex: 1 0 400px;
+    align-items: center;
+    flex: 2 0 0;
 }
 
-#resume img{
+.links li:nth-child(1) {
+    display: block;
+    flex: 0 1 0;
+}
+
+.resume img {
     height: 300px;
     width: 600px;
+    align-items: right;
+    border: 3px solid var(--green);
+    margin: 2px 4px;
+    justify-content: space-evenly;
 }
 
 @media screen and (max-width: 992px) {
     .links {
-      flex-direction: column;
-      width: 100%;
+        flex-direction: column;
+        width: 50%;
       
     }
-  }
+}
 
 
 @media screen and (max-width: 786px) {
     .links {
-      flex-direction: column;
-      width: 50%;
+        flex-direction: column;
+        width: 100%;
       
     }
-  }
+}
+
+
+  @media screen and (max-width: 576px) {
+    .links {
+        flex-direction: column;
+        width: 100%;
+      
+    }
+}
