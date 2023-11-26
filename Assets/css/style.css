@@ -96,10 +96,15 @@ body {
     display: inline-block;
 }
 
-.img {
+.links {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: left;
     
+}
+
+.links img {
+    height: 200px;
+    width: 400px;
 }
