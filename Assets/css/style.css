@@ -100,17 +100,18 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    flex: 1 0 400px;
+    /* flex: 1 1 400px; */
     
     
 }
+
 
 .links img {
     height: 300px;
     width: 600px;
     border: 3px solid var(--green);
     margin: 2px 4px;
-    justify-content: 1 0 400px;
+    flex: 1 0 400px;
 }
 
 #resume img{
@@ -121,6 +122,16 @@ body {
 @media screen and (max-width: 992px) {
     .links {
       flex-direction: column;
+      width: 100%;
+      
+    }
+  }
+
+
+@media screen and (max-width: 786px) {
+    .links {
+      flex-direction: column;
+      width: 50%;
       
     }
   }
