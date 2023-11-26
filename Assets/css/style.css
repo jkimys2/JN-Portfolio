@@ -51,7 +51,7 @@ body {
 .avatar {
     height: 350px;
     width: 100%;
-    margin-bottom: 25px;
+    padding: 10px;
     background-size: cover;
     background-position: center;
     background-color: #c5e0dc;
@@ -72,7 +72,7 @@ body {
     margin-right: auto;
     margin-top: 20px;
     margin-bottom: 20px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 .section h2 {
@@ -99,19 +99,28 @@ body {
 .links {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    justify-content: space-evenly;
+    flex: 1 0 400px;
+    
     
 }
 
 .links img {
-    height: 400px;
-    width: 800px;
-    
+    height: 300px;
+    width: 600px;
+    border: 3px solid var(--green);
+    margin: 2px 4px;
+    justify-content: 1 0 400px;
+}
+
+#resume img{
+    height: 300px;
+    width: 600px;
 }
 
 @media screen and (max-width: 992px) {
     .links {
       flex-direction: column;
-      width: 100%;
+      
     }
   }
