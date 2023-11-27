@@ -28,6 +28,10 @@ I was able to accomplish this challenge through creating HTML and CSS files. I f
 
 This project was completed without any starter code. Everything on this page was placed strategically by adjusting the HTML and CSS files. The image below shows how the final product appears:
 
-![Final Web](./Assets/images/screenshot.png)
+![Final Web](./Assets/images/finalscreen.png)
 
 ## Links
+
+https://github.com/jkimys2/JN-Portfolio
+
+https://jkimys2.github.io/JN-Portfolio/
