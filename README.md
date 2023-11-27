@@ -30,6 +30,12 @@ This project was completed without any starter code. Everything on this page was
 
 ![Final Web](./Assets/images/finalscreen.png)
 
+## Credits
+
+CSS-Tricks
+W3Schools
+MDN Web Docs
+
 ## Links
 
 https://github.com/jkimys2/JN-Portfolio
