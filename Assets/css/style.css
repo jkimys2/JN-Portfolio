@@ -142,8 +142,8 @@ body {
 
 #ul li {
     display: inline-block;
-    padding: 1em;
-    margin: 1em;
+    padding: 0 1em;
+    margin: 0 1em;
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
@@ -182,16 +182,4 @@ body {
         display: flex;
         flex-direction: column;
     }
-}
-
-
-
-@media screen and (max-width: 768) {
-
-}
-
-
-
-  @media screen and (max-width: 576px) {
-    
 }
