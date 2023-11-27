@@ -33,7 +33,9 @@ This project was completed without any starter code. Everything on this page was
 ## Credits
 
 CSS-Tricks
+
 W3Schools
+
 MDN Web Docs
 
 ## Links
